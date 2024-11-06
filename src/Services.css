@@ -1,0 +1,58 @@
+.services-section {
+    padding: 20px;
+  }
+  
+  .services-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between;
+  }
+  
+  .services-image {
+    flex: 1; /* Allow the image to take some space */
+    text-align: left; /* Align image to the left */
+  }
+  
+  .services-image img {
+    width: 100%; /* Make the image responsive */
+    max-width: 300px; /* Adjust based on your layout */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .services-buttons {
+    flex: 1; /* Allow the buttons to take some space */
+    display: flex; /* Flex layout for buttons */
+    justify-content: center; /* Center the button container horizontally */
+    align-items: flex-start; /* Align button container to the top */
+  }
+  
+  .button-cont {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: flex-start; /* Center buttons horizontally */
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .service-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .services-description {
+    flex: 1; /* Allow the description to take some space */
+    text-align: left; /* Align text to the left */
+    margin-left: 20px; /* Space between buttons and description */
+  }
+  
+  .services-description h2 {
+    margin-bottom: 10px; /* Remove default margin */
+  }
+
+  .services-description p {
+    margin: 5px 0;
+  }
+  

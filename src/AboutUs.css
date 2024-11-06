@@ -1,0 +1,65 @@
+.about-section {
+    padding: 20px;
+  }
+
+  .about-section h2 {
+    font-size: 50px;
+
+  }
+  
+  .image-navigation {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Space out the buttons and images */
+    position: relative; /* This will allow absolute positioning of the buttons */
+  }
+  
+  .image-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center; /* Center the images within the container */
+  }
+  
+  .image-card {
+    flex: 1; /* Distribute available space equally among cards */
+    margin: 0 10px; /* Space between images */
+    text-align: center; /* Center text inside each card */
+  }
+  
+  .image-card img {
+    width: 100%; /* Makes the image responsive */
+    height: 400px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensure the image covers the area */
+  }
+  
+  .nav-button {
+    background: transparent; /* Transparent background for the button */
+    color: blue; /* Button text color */
+    border: none; /* No border */
+    font-size: 4em; /* Larger font size for better visibility */
+    
+    cursor: pointer;
+    padding: 10px; /* Padding around the button */
+    width: 60px; /* Fixed width for the button */
+    height: 80px; /* Fixed height for the button */
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Center the content */
+    align-items: center; /* Center the content */
+  }
+  
+  .nav-button:disabled {
+    color: grey; /* Change color when disabled */
+    cursor: not-allowed; /* Change cursor to indicate disabled */
+  }
+  
+  .view-more-button {
+    margin-top: 10px; /* Space between description and button */
+    padding: 8px 15px;
+    background-color: rgb(44, 123, 155);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

@@ -1,38 +1,121 @@
 .App {
+  background-color: green;
+  color: white;
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #004d00;
+  padding: 2px 10px;
+  margin: 0;
+  font-size: 1.2em;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Navigation styles */
+.nav-section {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Home section styles */
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(110, 72, 91); /* Purple background */
+  color: white;
+  min-height: 100vh; /* Full viewport height */
+  padding: 20px;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.home-text {
+  text-align: left;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.home-text h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.home-text p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  gap: 15px; /* Space between buttons */
+  margin-top: 20px; /* Add space between text and buttons */
+}
+
+/* Buttons */
+.cta-button, .login-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button {
+  background-color: #0066cc; /* Slightly different shade for login button */
+}
+
+/* Image on the right side */
+.home-image img {
+  width: 600px; /* Adjust width */
+  height: 550px; /* Adjust height */
+}
+
+section {
+  min-height: 100vh; /* Full height for each section */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; /* Center content vertically */
+  padding: 40px 20px;
+  margin: 0; /* No extra margin between sections */
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  background-color: #003300;
+  padding: 20px;
+  font-size: 0.9em;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Optional: Smooth scroll for navigation */
+html {
+  scroll-behavior: smooth;
 }
