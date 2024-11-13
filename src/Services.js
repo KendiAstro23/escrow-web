@@ -4,6 +4,7 @@ import './Services.css'; // Ensure you have this CSS file
 const Services = () => {
   return (
     <section id="services" className="services-section">
+      <h1>Our Offers</h1>
       <div className="services-content">
         <div className="services-image">
           <img src="/ESC3.png" alt="Services" />

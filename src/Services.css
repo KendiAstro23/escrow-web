@@ -1,6 +1,10 @@
 .services-section {
     padding: 20px;
   }
+
+  .services-section h1 {
+    font-size: 45px;
+  }
   
   .services-content {
     display: flex;

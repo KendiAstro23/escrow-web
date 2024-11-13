@@ -117,9 +117,15 @@ section {
   margin-top: 50px;
 }
 
+.pricing-section h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
 .pricing-description {
   max-width: 600px; /* Limit the width of the description */
   margin-bottom: 20px;
+  font-size: 25px;
 }
 
 .get-in-touch {
@@ -127,7 +133,7 @@ section {
   color: white;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
   font-size: 1.2em;
 }
@@ -135,35 +141,58 @@ section {
 /* Contact Us Section */
 .contact-us-section {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: space-between;
   margin-top: 50px;
   padding: 20px;
-  background-color: #f4f4f4;
+  height: 250px;
+  /*background-color: #2092a1;*/
 }
 
+.contact-image-container {
+  flex: 1; /* Take up space on the left */
+  display: flex;
+  justify-content: flex-start; 
+} 
+
 .contact-image {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 220px;
   object-fit: cover; /* Ensure the image keeps its aspect ratio */
-  margin-right: 20px; /* Add space between image and contact details */
+  flex: 0 0 250px;
+  /*margin-right: 20px;*/
 }
 
 .contact-details {
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  /*flex-direction: column;
   align-items: flex-start; /* Align the contact details to the left */
   justify-content: center; /* Vertically center the contact details */
+  flex: 1;
+  text-align: left;
+  margin-top: 50px;
 }
 
-.contact-details h3 {
+/*.contact-details h3 {
   margin: 0 0 10px 0; /* Space between heading and contact info */
+  /*border: none;
+  border-radius: 5px;
+}*/
+
+.vertical-heading {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-right: 20px;
+  font-size: 1.5em;
 }
 
-.contact-details p {
-  margin: 5px 0; /* Space between contact items */
-}
-
+/*.contact-details p {
+  margin: 15px 0; /* Space between contact items */
+  /*margin-left: 30px;
+  text-align: left;
+  margin-top: 20px;
+  flex: ;
+}*/
 
 footer {
   background-color: #003300;

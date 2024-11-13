@@ -58,11 +58,13 @@ function App() {
 </div>
 
 <div className="contact-us-section">
-  <img src="pricing.jpg" alt="Contact Image" className="contact-image" />
-  <div className="contact-details">
-    <h3>Contact Us</h3>
-    <p>Phone: +123 456 7890</p>
-    <p>Email: example@gmail.com</p>
+  <div className="contact-image-container">
+    <img src="pricing.jpg" alt="Contact" className="contact-image" />
+    <h3 className="vertical-heading">Contact Us</h3>
+    <div className="contact-details">
+      <p>Phone: +123 456 7890</p>
+      <p>Email: example@gmail.com</p>
+    </div>
   </div>
 </div>
 
