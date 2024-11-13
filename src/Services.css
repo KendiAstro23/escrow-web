@@ -4,7 +4,7 @@
   
   .services-content {
     display: flex;
-    align-items: flex-start; /* Align items to the top */
+    align-items: center; /* Align items to the top */
     justify-content: space-between;
   }
   
@@ -15,7 +15,7 @@
   
   .services-image img {
     width: 100%; /* Make the image responsive */
-    max-width: 300px; /* Adjust based on your layout */
+    max-width: 400px; /* Adjust based on your layout */
     height: auto; /* Maintain aspect ratio */
   }
   
@@ -28,9 +28,10 @@
   
   .button-cont {
     display: flex;
+    margin-bottom: 20px;
     flex-direction: column; /* Stack buttons vertically */
-    align-items: flex-start; /* Center buttons horizontally */
-    gap: 10px; /* Space between buttons */
+    align-items: center; /* Center buttons horizontally */
+    gap: 20px; /* Space between buttons */
   }
   
   .service-button {
@@ -49,10 +50,11 @@
   }
   
   .services-description h2 {
-    margin-bottom: 10px; /* Remove default margin */
+    align-items: flex-start;
+    margin-top: -40px;
   }
 
   .services-description p {
-    margin: 5px 0;
+    margin: 28px 0;
   }
   

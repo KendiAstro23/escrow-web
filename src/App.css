@@ -108,6 +108,63 @@ section {
   margin: 0; /* No extra margin between sections */
 }
 
+/* Pricing Section */
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the heading, description, and button */
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pricing-description {
+  max-width: 600px; /* Limit the width of the description */
+  margin-bottom: 20px;
+}
+
+.get-in-touch {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+/* Contact Us Section */
+.contact-us-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.contact-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* Ensure the image keeps its aspect ratio */
+  margin-right: 20px; /* Add space between image and contact details */
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align the contact details to the left */
+  justify-content: center; /* Vertically center the contact details */
+}
+
+.contact-details h3 {
+  margin: 0 0 10px 0; /* Space between heading and contact info */
+}
+
+.contact-details p {
+  margin: 5px 0; /* Space between contact items */
+}
+
+
 footer {
   background-color: #003300;
   padding: 20px;

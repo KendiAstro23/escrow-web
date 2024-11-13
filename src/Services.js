@@ -10,11 +10,11 @@ const Services = () => {
         </div>
         <div className="services-buttons">
           <div className="button-cont">
+            <button className="service-button">Payment Link</button>
             <button className="service-button">Invoice</button>
-            <button className="service-button">Payment</button>
           </div>
           <div className="services-description">
-            <h2>Our Services</h2>
+            <h2>HOW CAN WE HELP?</h2>
             <p>Description for Invoice service, explaining what it entails.</p>
             <p>Description for Payment service, detailing the process and benefits.</p>
           </div>

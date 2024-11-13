@@ -48,10 +48,24 @@ function App() {
 
       <Services /> {/* Add the Services section here */}
 
-      <section id="testimonials">
-        <h2>Testimonials</h2>
-        <p>What our customers say about us.</p>
-      </section>
+      <div className="pricing-section">
+  <h2>Pricing</h2>
+  <p className="pricing-description">
+    We offer competitive and customizable pricing options to suit your needs.
+    Contact us to find the best package for you.
+  </p>
+  <button className="get-in-touch">Get in Touch</button>
+</div>
+
+<div className="contact-us-section">
+  <img src="pricing.jpg" alt="Contact Image" className="contact-image" />
+  <div className="contact-details">
+    <h3>Contact Us</h3>
+    <p>Phone: +123 456 7890</p>
+    <p>Email: example@gmail.com</p>
+  </div>
+</div>
+
 
       <section id="contact">
         <h2>Contact</h2>
