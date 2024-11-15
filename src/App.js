@@ -15,8 +15,8 @@ function App() {
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About Us</a></li>
               <li><a href="#services">Services</a></li>
-              <li><a href="#testimonials">Testimonials</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#resources">FAQ</a></li>
             </ul>
           </nav>
         </div>
@@ -47,15 +47,15 @@ function App() {
       <AboutUs /> {/* Add the About Us section here */}
 
       <Services /> {/* Add the Services section here */}
-
-      <div className="pricing-section">
+  <section id="pricing">
+    <div className="pricing-section">
   <h2>Pricing</h2>
   <p className="pricing-description">
     We offer competitive and customizable pricing options to suit your needs.
     Contact us to find the best package for you.
   </p>
   <button className="get-in-touch">Get in Touch</button>
-</div>
+  </div>
 
 <div className="contact-us-section">
   <div className="contact-image-container">
@@ -66,13 +66,30 @@ function App() {
       <p>Email: example@gmail.com</p>
     </div>
   </div>
+  <div className='contact-pic-container'>
+  <img src="pricing2.jpg" alt="Secure" className="contact-pic" />
+  </div>
 </div>
+</section>
 
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Contact form or information.</p>
-      </section>
+  <section id="resources">
+    <div className="resource-section">
+      <h2>Resources</h2>
+      {/* Link Buttons */}
+      <div className="resource-links">
+        <a href="#baakipay-policy" className="resource-link">BaakiPay Policy</a>
+        <a href="#faq" className="resource-link">FAQ</a>
+        <a href="#terms-conditions" className="resource-link">Terms & Conditions</a>
+      </div>
+      {/* Social Media Icons */}
+      <div className="social-icons">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+      </div>
+    </div>
+</section>
 
       <footer>
         <p>&copy; 2024 Escrow Website. All Rights Reserved.</p>

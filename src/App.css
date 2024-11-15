@@ -156,11 +156,12 @@ section {
 } 
 
 .contact-image {
-  width: 300px;
-  height: 220px;
+  width: 200px;
+  height: 180px;
   object-fit: cover; /* Ensure the image keeps its aspect ratio */
   flex: 0 0 250px;
-  /*margin-right: 20px;*/
+  margin-left: 5px;
+  margin-top: 40px;
 }
 
 .contact-details {
@@ -193,6 +194,67 @@ section {
   margin-top: 20px;
   flex: ;
 }*/
+
+.contact-pic-container .contact-pic {
+  width: 570px;
+  height: 350px;
+  object-fit: cover; /* Ensure the image keeps its aspect ratio */
+  flex: 1;
+  margin-left: 20px;
+  margin-top: -40px;
+}
+
+/* Resource Section */
+.resource-section {
+  background-color: #2c3e50; /* Dark background color */
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.resources-section h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.resource-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between the buttons */
+  margin-bottom: 20px; /* Space between the buttons and icons */
+}
+
+.resource-links a {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.resource-links a:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the icons */
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #3498db; /* Change icon color on hover */
+}
+
 
 footer {
   background-color: #003300;
