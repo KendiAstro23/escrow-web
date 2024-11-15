@@ -1,9 +1,14 @@
+import React from 'react';
 import { motion } from "framer-motion";
 import star1 from "./Animate/star-1.svg";
 import star2 from "./Animate/star-2.svg";
 import star3 from "./Animate/star-3.svg";
 import star4 from "./Animate/star-4.svg";
-import './home.css';
+import './Homeback.css';
+
+function Homeback() {
+  return (
+    <div>
  
  {/* Home Section */}
 <div className="home-section">
@@ -56,3 +61,8 @@ import './home.css';
      <img src="/ESC2.png"   alt="Escrow service illustration" />
    </div>
  </div>
+ </div>
+  )
+}
+
+export default Homeback;

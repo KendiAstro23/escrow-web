@@ -68,8 +68,3 @@
     background-color: blue; /* Slightly different shade for login button */
   }
   
-  /* Image on the right side */
-  .home-image img {
-    width: 600px; /* Adjust width */
-    height: 550px; /* Adjust height */
-  }
