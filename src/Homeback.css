@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: space-between;
     background-image: url('./Animate/baaki-background.jpg');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
     /*background-color: rgb(110, 72, 91); Purple background */
     color: white;
     min-height: 100vh; /* Full viewport height */
@@ -19,6 +22,11 @@
   .hero-container {
     position: relative;
     width: 100%;
+  }
+
+  .hero-text {
+    color: rgba(179, 19, 152, 0.822);
+    font-size: 20px;
   }
   
   .star {
@@ -46,11 +54,14 @@
   }
   
   .button-container {
+    position: absolute;
+    left: 20px;
     display: flex;
     align-items: center;
-    justify-content: flex-start; 
+    /*justify-content: flex-start; */
     gap: 15px; /* Space between buttons */
-    margin-top: 20px; /* Add space between text and buttons */
+    bottom: 20px; /* Add space between text and buttons */
+
   }
   
   /* Buttons */
