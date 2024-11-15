@@ -1,0 +1,75 @@
+/* Home section styles */
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./Animate/baaki-background.jpg');
+    /*background-color: rgb(110, 72, 91); Purple background */
+    color: white;
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .hero-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .star {
+    position: absolute;
+  }
+  
+  .star-1 {
+    top: 5%;
+    left: 10%;
+  }
+  
+  .star-2 {
+    right: 10%;
+    top: -10%;
+  }
+  
+  .star-3 {
+    right: 7%;
+    top: 15%;
+  }
+  
+  .star-4 {
+    bottom: -20%;
+    right: 7%;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 15px; /* Space between buttons */
+    margin-top: 20px; /* Add space between text and buttons */
+  }
+  
+  /* Buttons */
+  .cta-button, .login-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: blue; /* Slightly different shade for login button */
+  }
+  
+  /* Image on the right side */
+  .home-image img {
+    width: 600px; /* Adjust width */
+    height: 550px; /* Adjust height */
+  }
