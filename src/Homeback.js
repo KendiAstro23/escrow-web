@@ -47,9 +47,9 @@ function Homeback() {
    animate={{ opacity: 1 }}
    transition={{ duration: 2, ease: "easeInOut" }}
  >
-  <div className="home-text"> Welcome to Our Escrow Service
+  Welcome to Our Escrow Service
    <br></br>
-   We ensure safe and secure transactions for our clients. </div>
+   We ensure safe and secure transactions for our clients. 
    </motion.h1>
  </div>
      <div className="button-container">
